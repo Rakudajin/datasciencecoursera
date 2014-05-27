@@ -1,5 +1,4 @@
-## Write a short comment describing this function
-
+## A function which transfers matrix into a "CacheMatrix" (almost a class)
 makeCacheMatrix <- function(x = matrix()){
     
     # sets inverse matrix to NULL
@@ -21,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()){
 }
 
 
-## Write a short comment describing this function
+## A function which uses cache to compute CacheMatrix
 cacheSolve <- function(x, ...) {
     
     # checks whether inverse matrix is in cache, if so - immediately returns it
