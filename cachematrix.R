@@ -37,7 +37,7 @@ cacheSolve <- function(x, ...) {
     
     # otherwise - calculate and return it
     data <- x$get()    
-    i <- solve(a, ...)
+    i <- solve(data, ...)
     x$seti(i)
     i
 }
